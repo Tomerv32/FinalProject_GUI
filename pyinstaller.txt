@@ -1,0 +1,1 @@
+pyinstaller -i img/ico.ico  --name LearningGUI --onefile --hidden-import websocket --hidden-import json --hidden-import pydispatch --add-data "EMOTIVcortex/*.py;." gui.py
